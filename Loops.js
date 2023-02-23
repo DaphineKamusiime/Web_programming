@@ -14,7 +14,8 @@ console.log(hostels)
 
 function mentionHostels(){
     for (let i=0; i<hostels.length;i++){
-        console.log("The hostel is ", (i+1),".",hostels[i])
+        console.log("The hostel is ", (i+1),".",hostels[i]) // or console.log('Number $ (i+1)${listOfHostels()[i]}')
+       
     }
 }
 mentionHostels()
@@ -29,3 +30,4 @@ for(let number= 1; number<=n; number++){
   }
 console.log("SUM = ",sum)
 */
+
